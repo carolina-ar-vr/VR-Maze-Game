@@ -9,8 +9,8 @@ public class LeverInteractable : MonoBehaviour
 {
     // Public variables
     public float angleThreshold = 20.0f;
-    public delegate void LeverSwitched(bool isActive);
-    public LeverSwitched leverSwitched;
+    [SerializeField] public UnityEvent leverOn;
+    [SerializeField] public UnityEvent leverOff;
     [HideInInspector] public bool leverActive = false;
 
     // Private variables
@@ -36,11 +36,11 @@ public class LeverInteractable : MonoBehaviour
 		if (currentAngle >= angleThreshold && leverActive == false)
 		{
             leverActive = true;
-            leverSwitched(leverActive);
+			leverOn.Invoke();
 		} else if (currentAngle <= -angleThreshold && leverActive == true)
         {
             leverActive = false;
-            leverSwitched(leverActive);
+			leverOff.Invoke();
 		}
 	}
 }

@@ -5,21 +5,17 @@ using UnityEngine.Experimental.GlobalIllumination;
 
 public class ToggleableLight : MonoBehaviour
 {
-	// Public variables
-	public LeverInteractable lever;
-
     // Private variables
     private Light lightObj;
 
 	// Start
 	private void Start()
 	{
-		lightObj = GetComponent<Light>();
-		lever.leverSwitched += OnLeverToggle;
+		lightObj = GetComponent<Light>();;
 	}
 
-	public void OnLeverToggle(bool isActive)
-    {
-		lightObj.enabled = isActive;
-    }
+	public void SetLightActive(bool toSet)
+	{
+		lightObj.enabled = toSet;
+	}
 }
