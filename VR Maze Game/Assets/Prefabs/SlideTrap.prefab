@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 3121546087788670773}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.67, y: -0.024999997, z: 5.43}
+  m_LocalPosition: {x: 2.15, y: -0.024999997, z: 5.523}
   m_LocalScale: {x: 2.1290495, y: 0.46083, z: -1.6778743}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40,8 +40,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4902226598770654727}
-  - component: {fileID: 4232853753564940367}
   - component: {fileID: 7140267055730353567}
+  - component: {fileID: 9165365993323274095}
   m_Layer: 0
   m_Name: SlideTrap
   m_TagString: Untagged
@@ -67,19 +67,6 @@ Transform:
   - {fileID: 3877581437535344182}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4232853753564940367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7575327556699154631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1d9ebc9c5fe85641a61107fddab335d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transitionTime: 1
 --- !u!114 &7140267055730353567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,8 +85,8 @@ MonoBehaviour:
   PressedByObject:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4232853753564940367}
-        m_TargetAssemblyTypeName: SlideDoor, Assembly-CSharp
+      - m_Target: {fileID: 9165365993323274095}
+        m_TargetAssemblyTypeName: SlideTrap, Assembly-CSharp
         m_MethodName: OpenDoor
         m_Mode: 1
         m_Arguments:
@@ -110,6 +97,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  plate: {fileID: 7696564322738661665}
+  maxDistance: 1
+--- !u!114 &9165365993323274095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7575327556699154631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc1c4c969609e4abc7effcbe7bdba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionTime: 1
+  resetTime: 3
 --- !u!1 &7696564322738661665
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,8 +142,8 @@ Transform:
   m_GameObject: {fileID: 7696564322738661665}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.2192, y: -0.024999997, z: 5.43}
-  m_LocalScale: {x: 4.2732363, y: 0.41082993, z: 1.677874}
+  m_LocalPosition: {x: -3.2192, y: -0.024999997, z: 5.523}
+  m_LocalScale: {x: 4.2732363, y: 0.41082993, z: 1.8456614}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4902226598770654727}
@@ -352,7 +355,7 @@ Transform:
   m_GameObject: {fileID: 8056862856351247101}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.2192, y: -0.024999997, z: 5.43}
+  m_LocalPosition: {x: -3.2192, y: -0.024999997, z: 5.523}
   m_LocalScale: {x: 2.1290495, y: 0.46083, z: -1.6778743}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -16,6 +16,7 @@ public class LeverInteractable : MonoBehaviour
     // Private variables
     private ConfigurableJoint joint;
     private float currentAngle = 0;
+    private bool firstSwitch = true;
 
     // Start is called before the first frame update
     void Start()
@@ -33,13 +34,15 @@ public class LeverInteractable : MonoBehaviour
     void UpdateState()
     {
 		currentAngle = gameObject.transform.localRotation.x * Mathf.Rad2Deg;
-		if (currentAngle >= angleThreshold && leverActive == false)
+		if (currentAngle >= angleThreshold && (leverActive == false || firstSwitch == true))
 		{
             leverActive = true;
+            firstSwitch = false;
 			leverOn.Invoke();
-		} else if (currentAngle <= -angleThreshold && leverActive == true)
+		} else if (currentAngle <= -angleThreshold && (leverActive == true || firstSwitch == true))
         {
             leverActive = false;
+            firstSwitch = false;
 			leverOff.Invoke();
 		}
 	}

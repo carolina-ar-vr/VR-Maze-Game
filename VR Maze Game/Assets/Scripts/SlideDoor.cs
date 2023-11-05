@@ -35,7 +35,7 @@ public class SlideDoor : MonoBehaviour
 	}
 
 	// Starting to open or close
-	public void OpenDoor()
+	public virtual void OpenDoor()
 	{
         if (isPlaying == false && isOpen == false)
 		{
