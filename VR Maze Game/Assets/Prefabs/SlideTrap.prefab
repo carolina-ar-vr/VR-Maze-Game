@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3877581437535344182}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OpenPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 3121546087788670773}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.15, y: -0.024999997, z: 5.523}
+  m_LocalPosition: {x: 5.03, y: 0, z: 0}
   m_LocalScale: {x: 2.1290495, y: 0.46083, z: -1.6778743}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40,9 +40,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4902226598770654727}
-  - component: {fileID: 7140267055730353567}
   - component: {fileID: 9165365993323274095}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SlideTrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67,38 +66,6 @@ Transform:
   - {fileID: 3877581437535344182}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7140267055730353567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7575327556699154631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 455f9132d59cd3844bcd639e341932ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PressedByPlayer:
-    m_PersistentCalls:
-      m_Calls: []
-  PressedByObject:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9165365993323274095}
-        m_TargetAssemblyTypeName: SlideTrap, Assembly-CSharp
-        m_MethodName: OpenDoor
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  plate: {fileID: 7696564322738661665}
-  maxDistance: 1
 --- !u!114 &9165365993323274095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,7 +93,8 @@ GameObject:
   - component: {fileID: 2088725954429048044}
   - component: {fileID: 45775168488688199}
   - component: {fileID: 9137919922353470544}
-  m_Layer: 0
+  - component: {fileID: 4379416438642954733}
+  m_Layer: 6
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,8 +110,8 @@ Transform:
   m_GameObject: {fileID: 7696564322738661665}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.2192, y: -0.024999997, z: 5.523}
-  m_LocalScale: {x: 4.2732363, y: 0.41082993, z: 1.8456614}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.3465405, y: 0.41082993, z: 1.2228984}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4902226598770654727}
@@ -330,6 +298,39 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4379416438642954733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696564322738661665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455f9132d59cd3844bcd639e341932ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PressedByPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  PressedByObject:
+    m_PersistentCalls:
+      m_Calls: []
+  Pressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9165365993323274095}
+        m_TargetAssemblyTypeName: SlideTrap, Assembly-CSharp
+        m_MethodName: OpenDoor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8056862856351247101
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6158126530181261189}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ClosePosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +356,7 @@ Transform:
   m_GameObject: {fileID: 8056862856351247101}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.2192, y: -0.024999997, z: 5.523}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.1290495, y: 0.46083, z: -1.6778743}
   m_ConstrainProportionsScale: 0
   m_Children: []

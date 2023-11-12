@@ -8,20 +8,35 @@ public class PressurePlate : MonoBehaviour
     // Public variables
     [SerializeField] UnityEvent PressedByPlayer;
 	[SerializeField] UnityEvent PressedByObject;
-	public GameObject plate;
-	public float maxDistance = 1.0f;
+	[SerializeField] UnityEvent Pressed;
 
-	// On update
-	private void Update()
+	// On collision
+	private void OnCollisionEnter(Collision collision)
 	{
-		RaycastHit hit;
-		if (Physics.BoxCast(plate.transform.position, plate.transform.localScale / 2, new Vector3(0, 1, 0), out hit, plate.transform.rotation, maxDistance))
+		if (collision.gameObject.tag == "Player")
 		{
-			if (hit.transform.gameObject.tag == "Player")
-			{
-				PressedByPlayer.Invoke();
-			}
+			PressedByPlayer.Invoke();
+		} else
+		{
 			PressedByObject.Invoke();
 		}
+		Pressed.Invoke();
 	}
+
+	// On update
+	//private void Update()
+	//{
+	//	RaycastHit hit;
+	//	if (Physics.BoxCast(plate.transform.position, plate.transform.localScale / 2, new Vector3(0, 1, 0), out hit, plate.transform.rotation, maxDistance))
+	//	{
+	//		if (hit.transform.gameObject.tag == "Player")
+	//		{
+	//			PressedByPlayer.Invoke();
+	//		} else
+	//		{
+	//			PressedByObject.Invoke();
+	//		}
+	//		Pressed.Invoke();
+	//	}
+	//}
 }

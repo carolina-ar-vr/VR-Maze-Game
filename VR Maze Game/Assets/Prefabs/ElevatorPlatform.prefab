@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 1547712328148305564}
   - component: {fileID: 4700998912406033221}
   - component: {fileID: 6228344552076172073}
-  m_Layer: 0
+  - component: {fileID: 6610794650714738220}
+  m_Layer: 6
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,6 +106,39 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6610794650714738220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3157825241273343853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455f9132d59cd3844bcd639e341932ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PressedByPlayer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6452121366037734250}
+        m_TargetAssemblyTypeName: SlideTrap, Assembly-CSharp
+        m_MethodName: OpenDoor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  PressedByObject:
+    m_PersistentCalls:
+      m_Calls: []
+  Pressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3672350867856249207
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,7 +148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2427137483572911999}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ClosePosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,9 +179,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 203067334359764247}
-  - component: {fileID: 1697138726392254170}
   - component: {fileID: 6452121366037734250}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ElevatorPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,38 +205,6 @@ Transform:
   - {fileID: 2427137483572911999}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1697138726392254170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5043880332601368067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 455f9132d59cd3844bcd639e341932ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PressedByPlayer:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6452121366037734250}
-        m_TargetAssemblyTypeName: SlideTrap, Assembly-CSharp
-        m_MethodName: OpenDoor
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  PressedByObject:
-    m_PersistentCalls:
-      m_Calls: []
-  plate: {fileID: 3157825241273343853}
-  maxDistance: 1
 --- !u!114 &6452121366037734250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,7 +228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5756991368394121187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OpenPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
