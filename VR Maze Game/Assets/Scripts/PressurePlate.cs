@@ -22,21 +22,4 @@ public class PressurePlate : MonoBehaviour
 		}
 		Pressed.Invoke();
 	}
-
-	// On update
-	//private void Update()
-	//{
-	//	RaycastHit hit;
-	//	if (Physics.BoxCast(plate.transform.position, plate.transform.localScale / 2, new Vector3(0, 1, 0), out hit, plate.transform.rotation, maxDistance))
-	//	{
-	//		if (hit.transform.gameObject.tag == "Player")
-	//		{
-	//			PressedByPlayer.Invoke();
-	//		} else
-	//		{
-	//			PressedByObject.Invoke();
-	//		}
-	//		Pressed.Invoke();
-	//	}
-	//}
 }

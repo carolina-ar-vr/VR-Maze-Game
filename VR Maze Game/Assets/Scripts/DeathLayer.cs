@@ -1,20 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.UI;
 using UnityEngine;
 
-public class DeathLayer : MonoBehaviour
+public class DeathLayer : DeathObject
 {
-    // Public variables
-    public Transform playerTransform;
-    public Transform respawn;
-
     // Update is called once per frame
     void FixedUpdate()
     {
         if (playerTransform.position.y <= transform.position.y)
         {
-            Debug.Log("Respawn plz");
-            playerTransform.position = respawn.position;
+            KillPlayer();
         }
     }
 }
