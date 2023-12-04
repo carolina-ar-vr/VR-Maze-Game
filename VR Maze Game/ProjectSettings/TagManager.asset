@@ -3,15 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - XROrigin
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - SwingDoor
   - Water
   - UI
-  - 
+  - Ground&Walls
   - 
   - 
   - 
