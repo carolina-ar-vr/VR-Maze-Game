@@ -121,7 +121,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 732852447639442863, guid: df43604b5c7d3c84d842bc407b2b69c2, type: 3}
       propertyPath: m_Name
-      value: Ground (5)
+      value: Ceiling
       objectReference: {fileID: 0}
     - target: {fileID: 7893456298987564105, guid: df43604b5c7d3c84d842bc407b2b69c2, type: 3}
       propertyPath: m_LocalScale.x
