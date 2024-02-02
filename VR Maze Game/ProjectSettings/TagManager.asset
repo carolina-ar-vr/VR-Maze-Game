@@ -6,12 +6,14 @@ TagManager:
   tags:
   - Anchor
   - LeftHand
-  - RIghtHand
+  - XROrigin
+  - XRInteractionManager
+  - RightHand
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Doors
   - Water
   - UI
   - Player

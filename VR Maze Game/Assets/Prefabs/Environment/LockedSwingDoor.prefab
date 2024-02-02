@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2442874041898399138}
   - component: {fileID: 4050926270282470007}
   - component: {fileID: 8082381657080780169}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DoorKnob (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 6
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -311,7 +311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4633315877568617648}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LockedSwingDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +438,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -539,7 +539,7 @@ GameObject:
   - component: {fileID: 5685798105056487068}
   - component: {fileID: 2277792229613914335}
   - component: {fileID: 6932346414728880393}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DoorKnob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,7 +624,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -677,7 +677,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 6
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -836,7 +836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6564993824883920750}
   - component: {fileID: 3307069501176724411}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -952,6 +952,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0b9ea6acf0201ac47acf9e0825c1766f, type: 3}
       propertyPath: m_Name
       value: Lock
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0b9ea6acf0201ac47acf9e0825c1766f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
