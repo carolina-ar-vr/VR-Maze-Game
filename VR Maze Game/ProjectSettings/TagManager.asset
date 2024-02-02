@@ -4,16 +4,18 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - XROrigin
+  - Anchor
+  - LeftHand
+  - RIghtHand
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - SwingDoor
+  - 
   - Water
   - UI
-  - Ground&Walls
-  - 
+  - Player
+  - Interactable
   - 
   - 
   - 
