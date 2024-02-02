@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2873640440366788904}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: OpenPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951129345940725036}
   - component: {fileID: 4792581502470477783}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SlideDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 4113715905667726289}
   - component: {fileID: 6915743503572003140}
   - component: {fileID: 5138724682719817111}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,7 +193,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5048254230745617792}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ClosePosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}

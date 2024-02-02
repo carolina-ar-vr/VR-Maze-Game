@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3877581437535344182}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: OpenPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4902226598770654727}
   - component: {fileID: 9165365993323274095}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SlideTrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 45775168488688199}
   - component: {fileID: 9137919922353470544}
   - component: {fileID: 4379416438642954733}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6158126530181261189}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ClosePosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}

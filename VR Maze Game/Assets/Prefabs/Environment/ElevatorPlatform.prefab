@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4700998912406033221}
   - component: {fileID: 6228344552076172073}
   - component: {fileID: 6610794650714738220}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2427137483572911999}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ClosePosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 203067334359764247}
   - component: {fileID: 6452121366037734250}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ElevatorPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5756991368394121187}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: OpenPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}

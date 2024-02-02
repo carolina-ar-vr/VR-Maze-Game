@@ -8,13 +8,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 399725367496273754, guid: f86210f63da8bd94d8f79f1655c0c3d4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1255900833248781075, guid: f86210f63da8bd94d8f79f1655c0c3d4, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2648358
       objectReference: {fileID: 0}
     - target: {fileID: 1419992945477053423, guid: f86210f63da8bd94d8f79f1655c0c3d4, type: 3}
       propertyPath: m_Name
-      value: HiddenDoor Variant
+      value: HiddenDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419992945477053423, guid: f86210f63da8bd94d8f79f1655c0c3d4, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1951129345940725036, guid: f86210f63da8bd94d8f79f1655c0c3d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60,10 +68,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4128633684819757882, guid: f86210f63da8bd94d8f79f1655c0c3d4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6915743503572003140, guid: f86210f63da8bd94d8f79f1655c0c3d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a2b1a7501bdd5ec469996f54f978d3c4, type: 2}
+    - target: {fileID: 9125577918888654913, guid: f86210f63da8bd94d8f79f1655c0c3d4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3830178449931847026}
   - component: {fileID: 7087529053069909547}
   - component: {fileID: 6838861488780536368}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: DeathObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}

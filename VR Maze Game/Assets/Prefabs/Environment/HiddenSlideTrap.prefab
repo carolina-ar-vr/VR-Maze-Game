@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3121546087788670773, guid: e66bfcad0da91c745ada25811166115f, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3877581437535344182, guid: e66bfcad0da91c745ada25811166115f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.65
@@ -98,7 +102,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7575327556699154631, guid: e66bfcad0da91c745ada25811166115f, type: 3}
       propertyPath: m_Name
-      value: HiddenSlideTrap Variant
+      value: HiddenSlideTrap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575327556699154631, guid: e66bfcad0da91c745ada25811166115f, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696564322738661665, guid: e66bfcad0da91c745ada25811166115f, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8056862856351247101, guid: e66bfcad0da91c745ada25811166115f, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9137919922353470544, guid: e66bfcad0da91c745ada25811166115f, type: 3}
       propertyPath: m_Materials.Array.data[0]
