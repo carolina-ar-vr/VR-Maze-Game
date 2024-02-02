@@ -691,6 +691,7 @@ GameObject:
   - component: {fileID: 1486081380}
   - component: {fileID: 1486081379}
   - component: {fileID: 607204370481619601}
+  - component: {fileID: 1860488857212696624}
   m_Layer: 9
   m_Name: Bow Completed
   m_TagString: Untagged
@@ -742,7 +743,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -913,6 +914,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrow: {fileID: 1769337597633466025, guid: 54ba44d4ecd83324991be29cf49b127d, type: 3}
   notch: {fileID: 74269883}
+--- !u!65 &1860488857212696624
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3701202431252008202}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.8096005, y: 0.11573421, z: 0.33209324}
+  m_Center: {x: -0.001403221, y: 0.0009880109, z: -0.13708366}
 --- !u!1001 &1592245681944432935
 PrefabInstance:
   m_ObjectHideFlags: 0
