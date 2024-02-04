@@ -1,6 +1,6 @@
 # VR-Maze-Game
 ## Description
-This is a project created by the CARVR software team in collaboration with the design team. In this game, you can explore a dungeon maze in VR, solve puzzles to get from room to room, and interact with other objects throughout the game to do various different things.
+This is a Unity VR project created by the CARVR software team in collaboration with the design team. In this game, you can explore a dungeon maze in VR, solve puzzles to get from room to room, and interact with other objects throughout the game to do various different things. We started this project in the fall of 2023, and are presently still working on it.
 
 ## Device Compatability & Set-up
 We recommend playing this project using the Oculus Quest Link. Instructions on how to set up Quest Link can be found at [this link](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/set-up-link/).
