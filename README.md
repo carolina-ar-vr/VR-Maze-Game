@@ -17,7 +17,7 @@ Here is a video of the first level as of 2/3/2024:
 This is a work-in-progress project, which we will likely continue to add to as time passes. Below are a list of some future ideas we may eventually include in this project.
 - Monsters/enemies to fight with weapons
 - Setting up the UI with a main menu screen to select levels
-- Adding a health bar and death systme
+- Adding a health bar and death system
 - More advanced player movement (sprinting, jumping, etc.)
 - A scoring system based on monsters defeated and time taken
 - Food and health power ups
