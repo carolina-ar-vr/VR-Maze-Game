@@ -8,6 +8,9 @@ This game was made and tested using quest link with headsets such as the Meta Qu
 ## Device Set-up
 We recommend playing this project using the Oculus Quest Link. Instructions on how to set up Quest Link can be found at [this link](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/set-up-link/).
 
+## Current Scenes
+As of right now, there exist a wide variety of scenes in this Unity project. They are all organized in a single "Scenes" folder with a couple subfolders. You can check out the current levels in the "Levels" subfolder, or check out some of test scenes in other subfolders.
+
 ## Potential Future Plans
 This is a work-in-progress project, which we will likely continue to add to as time passes. Below are a list of some future ideas we may eventually include in this project.
 - Monsters/enemies to fight with weapons
