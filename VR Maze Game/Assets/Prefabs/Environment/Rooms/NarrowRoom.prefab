@@ -47,7 +47,7 @@ PrefabInstance:
     - target: {fileID: 3429902200414672947, guid: 21d5839c1aba27148a679402ee12c4a4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a2b1a7501bdd5ec469996f54f978d3c4, type: 2}
+      objectReference: {fileID: 2100000, guid: 5207dd1826016244e8ff1dd98fa4c06a, type: 2}
     - target: {fileID: 4489152548487322780, guid: 21d5839c1aba27148a679402ee12c4a4, type: 3}
       propertyPath: m_LocalScale.x
       value: 90.70757
@@ -243,7 +243,7 @@ PrefabInstance:
     - target: {fileID: 2459652563259744232, guid: 91f7993324422a849a645ad872b4deb5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a2b1a7501bdd5ec469996f54f978d3c4, type: 2}
+      objectReference: {fileID: 2100000, guid: 5207dd1826016244e8ff1dd98fa4c06a, type: 2}
     - target: {fileID: 7135424871267603166, guid: 91f7993324422a849a645ad872b4deb5, type: 3}
       propertyPath: m_Name
       value: Short stone wall
@@ -269,7 +269,7 @@ PrefabInstance:
     - target: {fileID: 1189575524391964423, guid: 730e3ee85d2567e42827b34330b13401, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a2b1a7501bdd5ec469996f54f978d3c4, type: 2}
+      objectReference: {fileID: 2100000, guid: 5207dd1826016244e8ff1dd98fa4c06a, type: 2}
     - target: {fileID: 2703049867690910374, guid: 730e3ee85d2567e42827b34330b13401, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.64
@@ -335,7 +335,7 @@ PrefabInstance:
     - target: {fileID: 1189575524391964423, guid: 730e3ee85d2567e42827b34330b13401, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a2b1a7501bdd5ec469996f54f978d3c4, type: 2}
+      objectReference: {fileID: 2100000, guid: 5207dd1826016244e8ff1dd98fa4c06a, type: 2}
     - target: {fileID: 2703049867690910374, guid: 730e3ee85d2567e42827b34330b13401, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.76
