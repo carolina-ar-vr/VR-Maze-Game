@@ -37,11 +37,13 @@ public class LeverInteractable : MonoBehaviour
 		{
             leverActive = true;
             firstSwitch = false;
+            Debug.Log("Flipped on");
 			leverOn.Invoke();
 		} else if (currentAngle <= -angleThreshold && (leverActive == true || firstSwitch == true))
         {
             leverActive = false;
             firstSwitch = false;
+			Debug.Log("Flipped off");
 			leverOff.Invoke();
 		}
 	}
